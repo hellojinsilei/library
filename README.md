@@ -1,7 +1,7 @@
 
 ### 如何使用
 ```
-$ git clone https://github.com/withstars/Books-Management-System
+$ git clone https://github.com/hellojinsilei/library.git
 
 $ cd Books-Management-System
 
