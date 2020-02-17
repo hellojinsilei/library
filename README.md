@@ -6,6 +6,8 @@ maven安装配置：
 https://blog.csdn.net/github_37759996/article/details/90748461
 git安装：
 https://blog.csdn.net/sanxd/article/details/82624127
+mysql安装配置：
+https://www.cnblogs.com/liuzengzhi/p/11704069.html
 ```
 ### 安装完成后即可在控制台运行命令
 ### 如何使用

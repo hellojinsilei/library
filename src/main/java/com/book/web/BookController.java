@@ -64,14 +64,14 @@ public class BookController {
     @RequestMapping("/deletebook.html")
     public String deleteBook(HttpServletRequest request,RedirectAttributes redirectAttributes){
         long bookId=Integer.parseInt(request.getParameter("bookId"));
-        int res=bookService.deleteBook(bookId);
+        int res=bookService.deleteLend(bookId);
 
         if (res==1){
             redirectAttributes.addFlashAttribute("succ", "图书删除成功！");
-            return "redirect:/allbooks.html";
+            return "redirect:/lendlist.html";
         }else {
             redirectAttributes.addFlashAttribute("error", "图书删除失败！");
-            return "redirect:/allbooks.html";
+            return "redirect:/lendlist.html";
         }
     }
 

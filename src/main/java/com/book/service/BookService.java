@@ -27,6 +27,9 @@ public class BookService {
     public int deleteBook(long bookId){
         return bookDao.deleteBook(bookId);
     }
+    public int deleteLend(long sernum){
+        return bookDao.deleteLend(sernum);
+    }
 
     public boolean matchBook(String searchWord){
         return bookDao.matchBook(searchWord)>0;
